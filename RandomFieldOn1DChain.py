@@ -4,7 +4,11 @@ import numpy
 from numpy import *
 from pylab import *
 from scipy import *
-from scipy import weave #weave was the only module never ported to Python 3.x. Remember to change Edit Scheme/Info/Excutable
+from scipy import weave
+# weave was the only module never ported to Python 3.x. Remember to change Edit Scheme/Info/Excutable.
+# For Python 3.5, in the terminal, open /usr/local/bin
+# For Python 2.7, in the terminal, open /System/Library/Frameworks/Python.framework/Versions/2.7/bin/
+
 from scipy.weave import converters
 
 
