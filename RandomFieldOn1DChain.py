@@ -108,7 +108,7 @@ class oneDChain:
                     """
                 
             weave.inline(code, ['N', 'randomDis','displacement','randomPotential','randomPositions','k','state','dis','w', 'randomMetro', 'acceptedMoves'],
-                             type_converters=converters.blitz, compiler='gcc')
+                            type_converters=converters.blitz, compiler='gcc')
                     
             energy = 0.5 * self.k *sum(pow(self.state[1:]-self.state[0:-1],2))
                              
